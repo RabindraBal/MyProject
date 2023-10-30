@@ -1,0 +1,47 @@
+/* :root{
+    --div-height:85vh;
+    --bg-size:100% 100%;
+}
+.center_div .top_div{
+    height: calc(var(--div-height) - 40vh);
+    
+}
+.center_div .buttom_fist{
+    height: calc(var(--div-height) - 50vh);
+    
+}
+.center_div .buttom_sec{
+    height: calc(var(--div-height) - 30vh);
+} */
+:root{
+    --div-height:95vh;
+    --bg-size:100% 100%;
+}
+
+.fluid{
+    justify-content: center;
+    background-color: rgb(123, 162, 213);
+    height: calc(var(--div-height) - 0vh);
+    border-radius: 10px;
+}
+.center-div{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;  
+    border: 2px solid grey;
+}
+.heading .text{
+    font-weight: 600;
+    color: red;
+}
+@media (min-width:200px) and (max-width:600px) {
+    .center-div{
+        width: 80%;
+        height: auto;
+        border: 2px solid grey;
+    }
+    
+}
